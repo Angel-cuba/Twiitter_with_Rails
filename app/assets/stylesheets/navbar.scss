@@ -1,0 +1,27 @@
+.navbar{
+    width: 98%;
+    height: fit-content;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        margin-left: 20px;
+    }
+    ul{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            padding: 5px;
+            list-style: none;
+            a{
+                background-color: red;
+                text-decoration: none;
+                padding: 5px;
+            }
+            
+        }
+    }
+ 
+}
