@@ -13,22 +13,22 @@
  *= require_tree .
  *= require_self
  */
- body{
-    background-color: rgba(245, 245, 220, 0.1443);
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    h1{
-      color: red;
-    }
-    p{
-      color: red;
-    }
- }
- .main{
+body {
+  background-color: rgba(245, 245, 220, 0.1443);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+body h1 {
+  color: red;
+}
+body p {
+  color: red;
+}
+
+.main {
   width: 90vw;
   margin: auto;
   display: flex;
   justify-content: center;
- }
-
+}/*# sourceMappingURL=application.css.map */
