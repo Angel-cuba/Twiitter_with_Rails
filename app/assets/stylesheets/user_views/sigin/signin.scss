@@ -7,7 +7,7 @@
     .container{
         position: relative;
         width: 300px;
-        height: 300px;
+        height: 370px;
         padding: 50px 70px;
         display: flex;
         justify-content: center;
@@ -25,9 +25,11 @@
             color: brown;
         }
         .field{
+            padding: 10px;
             label{
                 color: brown;
                 padding-bottom: 45px;
+                padding-left: 15px;
             }
             input{
                 background-color: rgba(15, 1, 1, 0.028);
