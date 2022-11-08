@@ -1,0 +1,54 @@
+.navbar{
+    width: 98%;
+    height: fit-content;
+    background-color: rgba(0,0,0,.0512);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 5px 5px rgba(99, 99, 99, 0.12);
+    border-radius: 5px;
+    h2{
+        margin-left: 20px;
+    }
+    ul{
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li{
+            padding: 5px;
+            list-style: none;
+            a{
+                text-decoration: none;
+                padding: 5px;
+                &:hover{
+                    color:black
+                }
+            }
+            
+        }
+        .logout_link{
+            background-color: red;
+            padding: 4px 7px;
+            border-radius: 4px;
+            a{
+                color: whitesmoke;
+            }
+        }
+    }
+ 
+}
+
+//---Shared---//
+.notice, .alert{
+    width: fit-content;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.notice{
+background-color: cadetblue;
+color: rgb(2, 0, 69);
+}
+.alert{
+    color: red;
+    background-color: aliceblue;
+}

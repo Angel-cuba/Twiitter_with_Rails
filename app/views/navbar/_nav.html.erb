@@ -1,0 +1,26 @@
+<h2>AppTest</h2>
+
+<% if user_signed_in?%>
+<h2><%= "Welcome, #{current_user.email.split('@')[0]}" %></h2>
+<% end %>
+
+<ul>
+
+ <li>
+ <%= link_to "Home", root_path %>
+ </li>
+ <li>
+ <%= link_to "About", about_path%>
+ </li>
+ <li>
+ <%= link_to "Us", about_path%>
+ </li>
+     <% if user_signed_in? %>
+     <li class="logout_link">
+    <%= link_to 'Logout', destroy_user_session_path, data: {
+      turbo_method: :delete
+    } %>
+    </li>
+  <% end %>
+
+</ul>

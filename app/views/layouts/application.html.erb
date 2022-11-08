@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AppTest</title>
+    <title>Angel</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,17 @@
   </head>
 
   <body>
+  <div class="navbar">
+  <%= render 'navbar/nav'%>
+  </div>
+
+  <%# Render pop-up messages and alerts %>
+  <%= render 'shared/flash'%>
+  <div class="main">
     <%= yield %>
+
+   
+    </div>
   </body>
+  
 </html>
