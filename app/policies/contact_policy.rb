@@ -1,9 +1,9 @@
-class TestPolicy
+class ContactPolicy 
     def initialize(user, _record)
+        @user = user
     end
 
     def index?
-        true
+       true
     end
 end
-
