@@ -1,5 +1,5 @@
 class AboutController < ApplicationController
     def index
-        authorize :other
+        authorize :about
     end
 end
