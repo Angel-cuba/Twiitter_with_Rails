@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :users, only: :index
   devise_for :users, controllers: {
     sessions: 'users/sessions',
-    registrations: 'users/registrations'
+    registrations: 'users/registrations',
+    passwords: 'users/passwords'
   }
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # GET /about
