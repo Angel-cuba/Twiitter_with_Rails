@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
     before_action :authenticate_user!
     # Make sure `authorize` is called in every controller action
-    # after_action :verify_authorized
+    after_action :verify_authorized
 
     rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
 
